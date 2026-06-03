@@ -337,6 +337,16 @@ border-radius:8px;
 border:none;
 }
 
+.video-publicidad{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto;
+}
+
+
 /* ========================= */
 /* RESPONSIVE DESIGN */
 /* ========================= */
@@ -377,6 +387,7 @@ max-width:400px;
 .texto{
 max-width:100%;
 }
+
 
 }
 
@@ -495,7 +506,17 @@ iframe{
 height:250px;
 }
 
+
+
+.video-publicidad{
+    width: 100%;
+    max-width: 320px;
 }
+
+}
+
+
+
 
 </style>
 
@@ -732,9 +753,9 @@ style="border:0;border-radius:15px;">
 
 <div class="card">
 
-<video width="100%" controls>
+<video class="video-publicidad" controls>
+    <source src="spot.mp4" type="video/mp4">
 
-<source src="spot.mp4" type="video/mp4">
 
 </video>
 
