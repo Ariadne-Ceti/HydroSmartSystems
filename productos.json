@@ -1,0 +1,17 @@
+[
+  {
+    "nombre":"Smart Heater",
+    "temperatura":"70°C",
+    "estado":"Disponible"
+  },
+  {
+    "nombre":"Hydro Heater Pro",
+    "temperatura":"65°C",
+    "estado":"Disponible"
+  },
+  {
+    "nombre":"Smart Water Control",
+    "temperatura":"50°C",
+    "estado":"Disponible"
+  }
+]
